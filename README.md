@@ -97,5 +97,5 @@ These are proposed investigations. The project does not report implemented polic
 | [Model specification comparison](return_model_specification_summary.csv) | Cash-versus-Gift-Card results across five model specifications |
 | [Transaction-value statistical tests](stat_value_log_omnibus_tests.csv) | Welch ANOVA and Kruskal–Wallis comparisons of log transaction value |
 
-Data Limitation — Currency: The source dataset does not specify the currency used for transaction values. Therefore, all monetary figures are treated as recorded numeric values, and no currency denomination is assumed. Comparisons reflect relative transaction values rather than verified amounts in a specific currency.
+NOTE! Data Limitation — Currency: In the Jupyter Notebooks file number 4 exploratory data analysis, it lists "currency unspecified." The source dataset does not specify the currency used for transaction values. Therefore, all monetary figures are treated as recorded numeric values, and no currency denomination is assumed. Comparisons reflect relative transaction values rather than verified amounts in a specific currency.
 
