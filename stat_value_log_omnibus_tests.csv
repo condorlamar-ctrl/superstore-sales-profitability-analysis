@@ -1,0 +1,9 @@
+grouping_variable,test_used,statistic,p_value,sample_size,group_count,effect_size,effect_size_name,variance_ratio_max_to_min
+PaymentMethod,Welch ANOVA on LogTotalPrice,2.5334966875673635,0.0391150601126794,1500,5,,not computed,1.4473022356129925
+PaymentMethod,Kruskal-Wallis robustness check on LogTotalPrice,8.471955312337741,0.07574187693852429,1500,5,0.005651738033580881,H/(N-1),1.4473022356129925
+CustomerType,Welch ANOVA on LogTotalPrice,0.04921946937038854,0.8244575246564858,1500,2,,not computed,1.14963160585566
+CustomerType,Kruskal-Wallis robustness check on LogTotalPrice,0.1818627287111667,0.6697773039706374,1500,2,0.00012132270094140541,H/(N-1),1.14963160585566
+Region,Welch ANOVA on LogTotalPrice,1.4238327024157291,0.224246479663577,1500,5,,not computed,1.2160247057331024
+Region,Kruskal-Wallis robustness check on LogTotalPrice,4.455881501369731,0.3478108938960961,1500,5,0.0029725693805001544,H/(N-1),1.2160247057331024
+Product,Welch ANOVA on LogTotalPrice,1.4606896655335244,0.18917353519905497,1500,7,,not computed,1.2742526309354623
+Product,Kruskal-Wallis robustness check on LogTotalPrice,10.146642970506036,0.11861085891378757,1500,7,0.006768941274520371,H/(N-1),1.2742526309354623
