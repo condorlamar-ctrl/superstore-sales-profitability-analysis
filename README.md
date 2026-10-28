@@ -4,7 +4,7 @@ Superstore Sales & Profitability Analysis
 
 Cash transactions had the highest observed return rate among the five payment methods: **30.8%**, versus **20.3%** for Gift Card transactions. This project uses exploratory analysis, statistical comparisons, and logistic regression to turn that finding into practical business recommendations.
 
-**[View the Jupyter Notebook analysis](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/sales_return_analysis%20%281%29.ipynb)** | **[Explore the prepared dataset](transaction_inference_features.csv)** | **[View the regression results](return_logit_model_results.csv)** | **[Compare model specifications](return_model_specification_summary.csv)**
+**[View the Jupyter Notebook analysis](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/sales_return_analysis%20%281%29.ipynb)** | **[Explore the dataset](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/Product-Sales-Region.csv)** | **[View the regression results](return_logit_model_results.csv)** | **[Compare model specifications](return_model_specification_summary.csv)**
 
 NOTE! Data Limitation — Currency: In the Jupyter Notebooks file number 4 exploratory data analysis, it lists "currency unspecified." The source dataset does not specify the currency used for transaction values. Therefore, all monetary figures are treated as recorded numeric values, and no currency denomination is assumed. Comparisons reflect relative transaction values rather than verified amounts in a specific currency.
 
@@ -95,7 +95,6 @@ These are proposed investigations. The project does not report implemented polic
 | --- | --- |
 | [Jupyter Notebook analysis](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/sales_return_analysis%20%281%29.ipynb) | Data quality checks, sales and regional analysis, return modeling, evaluation, and embedded visualizations |
 | [Original transaction dataset](Product-Sales-Region.csv) | Original dataset containing 1,500 transactions and 19 columns |
-| [Prepared transaction dataset](transaction_inference_features.csv) | Transaction records with derived features, categorical fields, and outlier indicators |
 | [Logistic regression results](return_logit_model_results.csv) | Primary model coefficients, adjusted odds ratios, confidence intervals, p-values, and diagnostics |
 | [Model specification comparison](return_model_specification_summary.csv) | Cash-versus-Gift-Card results across five model specifications |
 | [Transaction-value statistical tests](stat_value_log_omnibus_tests.csv) | Welch ANOVA and Kruskal–Wallis comparisons of log transaction value |
