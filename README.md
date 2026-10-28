@@ -6,7 +6,7 @@ Cash transactions had the highest observed return rate among the five payment me
 
 **[View the Jupyter Notebook analysis](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/sales_return_analysis%20%281%29.ipynb)** | **[Explore the dataset](https://github.com/condorlamar-ctrl/superstore-sales-profitability-analysis/blob/main/Product-Sales-Region.csv)** | **[View the regression results](return_logit_model_results.csv)** | **[Compare model specifications](return_model_specification_summary.csv)**
 
-NOTE! Data Limitation — Currency: The source dataset does not specify the currency used for transaction values. The original data has been preserved without modification, and no currency has been assumed. Monetary comparisons therefore reflect relative recorded values rather than verified amounts in a specific currency.  
+Data Limitation — Currency: The source dataset does not specify the currency used for transaction values. The original data has been preserved without modification, and no currency has been assumed. Monetary comparisons therefore reflect relative recorded values rather than verified amounts in a specific currency.  
 
 ## Business Problem
 
